@@ -1,8 +1,40 @@
 * {
     box-sizing: border-box;
-    background-color: yellow;
     font-family: 'Helvetica', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-img {
+
+html {
+    background: url(https://media0.giphy.com/media/j6MHzcvISk0luDhcjM/giphy.gif) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+  }
+.splash-page {
+    display: flex;
     width: 100%;
+    margin: auto;
+    
+    
 }
+div {
+    font-size: 20pt;
+    height: 200px;
+    width: 400px;
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.cursor {
+    cursor: url('https://webstockreview.net/images/alien-clipart-neon-green-13.png');
+  }
