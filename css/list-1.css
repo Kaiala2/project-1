@@ -12,6 +12,10 @@ h1 {
     font-size: 20pt;
     display: inline;
 }
+p {
+    color: white;
+
+}
 
 .home {
     text-align: left;
@@ -31,7 +35,7 @@ h2 {
     text-align: right;
 }
 .list {
-    font-size: 10pt;
+        font-size: 10pt;
         text-align: right;
         margin-top: 110pt;
         margin-right: 40pt;
@@ -41,28 +45,15 @@ h2 {
 }
 .spinz {
     display: flex;
-    width: 90%;
-    margin: auto;
+    width: 20%;
+    margin: 40pt;
     border: 5px solid rgb(0, 0, 0);
     
 }
-img {
-    width: 110%;
-    height: 95%;
-   
-}
 
-.pics {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
-    
-
-}
-.pics .child {
-    padding: 10px;
-    flex: 30%;
-}
-
-
+img {  
+    max-width: 100%;  
+    height: auto;  
+    }
+  
+ 
