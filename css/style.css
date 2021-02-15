@@ -12,7 +12,7 @@ html {
     height: 100%;
     overflow: hidden;
   }
-  h1 {
+h1 {
     margin-left: auto;
     margin-right: auto;
     width: 8em
@@ -21,8 +21,6 @@ html {
     display: flex;
     width: 100%;
     margin: auto;
-    
-    
 }
 div {
     font-size: 20pt;
@@ -36,5 +34,5 @@ div {
     margin-left: -200px;
 }
 .cursor {
-    cursor: url('https://webstockreview.net/images/alien-clipart-neon-green-13.png');
+    cursor: url('images/alien-clipart-neon-green-13.png');
   }
