@@ -1,68 +1,66 @@
-*{box-sizing: border-box;
-    background-color: black;
-    font-family: 'Helvetica', sans-serif;
+* {
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
 }
 
 h1 {
-    color: white;
-    border-bottom:1px solid #CCC;
-    width:100%;
-    float:left;
-    padding-bottom:3px;
-    font-size: 20pt;
-    display: inline;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  float: left;
+  padding-bottom: 3px;
+  font-size: 20pt;
+  display: inline;
 }
 
 .home {
-    text-align: left;
-    margin-top: 80pt;
-    margin-left: 40pt;
-    font-size: 25pt;
-    border-bottom: 30px;
-
+  text-align: left;
+  margin-top: 80pt;
+  margin-left: 40pt;
+  font-size: 25pt;
+  border-bottom: 30px;
 }
 h2 {
-    color: white;
-    border-bottom:1px solid #CCC;
-    width:100%;
-    float:right;
-    padding-bottom:3px;
-    display: inline;
-    text-align: right;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  float: right;
+  padding-bottom: 3px;
+  display: inline;
+  text-align: right;
+}
+
+.raeena {
+  margin-top: 160px;
 }
 .list {
-    font-size: 10pt;
-        text-align: right;
-        margin-top: 110pt;
-        margin-right: 40pt;
-        font-size: 20pt;
-        border-bottom: 30px;
-        flex: 1;
+  font-size: 10pt;
+  text-align: right;
+  margin-top: 110pt;
+  margin-right: 40pt;
+  font-size: 20pt;
+  border-bottom: 30px;
+  flex: 1;
 }
 .spinz {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    border: 5px solid rgb(0, 0, 0);
-    
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 5px solid rgb(0, 0, 0);
 }
 img {
-    width: 110%;
-    height: 95%;
-   
+  width: 110%;
+  height: 95%;
 }
 
 .pics {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
-    
-
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
 }
 .pics .child {
-    padding: 10px;
-    flex: 30%;
+  padding: 10px;
+  flex: 30%;
 }
-
-
