@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -12,6 +13,7 @@ a {
 body {
   background-color: #000;
   color: #fff;
+  margin: 0;
 }
 body.index-page {
   background: url(https://media0.giphy.com/media/j6MHzcvISk0luDhcjM/giphy.gif) no-repeat center center fixed;
@@ -68,6 +70,11 @@ img {
 
 .pink {
   color: fuchsia;
+  font-weight: bold;
+}
+.neon {
+  color:chartreuse;
+  font-weight: bold;
 }
 .home-page .pics {
   display: grid;
@@ -104,5 +111,27 @@ img {
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  border: 5px solid rgb(0, 0, 0);
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+    z-index: -1;
+}
+
+.wrapper {
+    padding: 80px 00 40px;
+    margin-top: 18.5%;
+    margin-left: 18.5%;
+    width: 71.5%;
+    height: 65%;
+    position: absolute;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+    z-index: -1;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
 }
